@@ -1,0 +1,28 @@
+{
+  "author": "Ole Torp Petersen <otp@munintech.dk>",
+  "name": "odhner",
+  "description": "A javascript module that lets you evaluate simple calculations from an input string.",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/munintech/odhner-node.git"
+  },
+  "contributors": [
+    { "name": "Søren Torp Petersen", "email": "stp@munintech.dk" }
+  ],
+  "keywords": [ "calculator", "numbers", "coffeescript" ],
+  "main": "index",
+  "engines": {
+    "node": "~0.6.7"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "dependencies": {
+    "coffee-script": ">= 1.2.0"
+  }, 
+  "devDependencies": {
+    "mocha": ">= 0.11.0",
+    "should": ">= 0.5.1"
+  }
+}

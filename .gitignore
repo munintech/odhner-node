@@ -1,0 +1,6 @@
+*.gitkeep
+*.swo
+*.swp
+*.DS_Store
+node_modules
+*.log
