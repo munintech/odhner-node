@@ -86,6 +86,10 @@ describe 'Odhner', ->
         it 'uses dots as decimal delimeter', ->
           calculator = new Odhner('2.554',100)
           calculator.result().should.eql 2.554
+      describe 'when only dots (.) are included for a decimal number', ->
+        it 'uses dots as decimal delimeter', ->
+          calculator = new Odhner('0.01125')
+          calculator.result().should.eql 0.01125
       describe 'when only commas (,) are included', ->
         it 'replaces the commas (,) with dots (.)', ->
           calculator = new Odhner('2,554+2,447',100)
